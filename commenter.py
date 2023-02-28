@@ -16,8 +16,8 @@ if len(sys.argv) > 1:
              continue
           if "modes/wake_and_sleep.talon" in pathfull:
              continue
-          if "plugin/mouse" in pathfull:
-             continue
+         #  if "plugin/mouse" in pathfull:
+         #     continue
   
           print(root)
   
