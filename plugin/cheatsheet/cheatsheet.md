@@ -618,203 +618,6 @@
 
 
 
-#  github web
-
-
- - **focus search**  `key(s)`
-
- - **go to notifications**  `insert("gn")`
-
- - **go to dashboard**  `insert("gd")`
-
- - **(keyboard shortcuts show | show keyboard shortcuts)**  `key(?)`
-
- - **(selection move down | move selection down)**  `key(j)`
-
- - **(selection move up | move selection up)**  `key(k)`
-
- - **(selection toggle | toggle selection)**  `key(x)`
-
- - **(selection open | open selection)**  `key(o)`
-
- - **go to code**  `insert("gc")`
-
- - **go to issues**  `insert("gi")`
-
- - **go to pull requests**  `insert("gp")`
-
- - **go to wiki**  `insert("gw")`
-
- - **go to actions**  `insert("ga")`
-
- - **go to projects**  `insert("gb")`
-
- - **go to discussions**  `insert("gg")`
-
- - **[web] editor open**  `key(.)`
-
- - **(file find | find file)**  `key(t)`
-
- - **jump to line**  `key(l)`
-
- - **((branch | tag) switch | switch (branch | tag))**  `key(w)`
-
- - **(url expand | expand url)**  `key(y)`
-
- - **(show | hide) comments**  `key(i)`
-
- - **blame view open**  `key(b)`
-
- - **(show | hide) annotations**  `key(a)`
-
- - **(issue create | create [an] issue)**  `key(c)`
-
- - **search (issues | [pull] requests)**  `key(/)`
-
- - **(filter by | edit) labels**  `key(l)`
-
- - **(filter by | edit) milestones**  `key(m)`
-
- - **(filter by | edit) assignee**  `key(a)`
-
- - **reply**  `key(r)`
-
- - **(comment submit | submit comment)**  `key(ctrl-enter)`
-
- - **(comment preview | preview comment)**  `key(ctrl-shift-p)`
-
- - **git hub full screen**  `key(ctrl-shift-l)`
-
- - **(form close | close form)**  `key(escape)`
-
- - **parent commit**  `key(p)`
-
- - **other parent commit**  `key(o)`
-
- - **mark as read**  `key(y)`
-
- - **(thread mute | mute thread)**  `key(shift-m)`
-
- - **(issue open | open issue)**  `key(o)`
-
- - **(issue create | create issue)**  `key(c)`
-
- - **reviewer request**  `key(q)`
-
- - **milestone set**  `key(m)`
-
- - **assignee set**  `key(a)`
-
- - **label set**  `key(l)`
-
- - **go to workflow**  `insert("gf")`
-
- - **timestamps toggle**  `key(shift-t)`
-
- - **fullscreen toggle**  `key(shift-f)`
-
-
-
-#  protonmail
-
-
- - **open help**  `key(?)`
-
- - **[focus] search**  `key(/)`
-
- - **confirm active**  `key(enter)`
-
- - **close active**  `key(escape)`
-
- - **open command [palette]**  `key(shift-space)`
-
- - **new message**  `key(c)`
-
- - **send message**  `key(ctrl-enter)`
-
- - **save message**  `key(ctrl-s)`
-
- - **(go | jump) [to] inbox**  `key(g)
-		key(i)`
-
- - **(go | jump) [to] draft**  `key(g)
-		key(d)`
-
- - **(go | jump) [to] sent**  `key(g)
-		key(s)`
-
- - **(go | jump) [to] starred**  `key(g)
-		key(.)`
-
- - **(go | jump) [to] archive**  `key(g)
-		key(a)`
-
- - **(go | jump) [to] spam**  `key(g)
-		key(x)`
-
- - **(go | jump) [to] trash**  `key(g)
-		key(t)
-		
-		## Navigation`
-
- - **(prev | previous) message**  `key(up)`
-
- - **next message**  `key(down)`
-
- - **exit message**  `key(left)`
-
- - **enter message**  `key(right)`
-
- - **(show | display) newer [message]**  `key(k)`
-
- - **(show | display) older [message]**  `key(j)`
-
- - **open message**  `key(enter)`
-
- - **go back**  `key(escape)`
-
- - **select all**  `key(*)
-		key(a)`
-
- - **(deselect | unselect) all**  `key(*)
-		key(n)`
-
- - **select [the] (message | conversation)**  `key(x)`
-
- - **mark [as] read**  `key(r)`
-
- - **mark [as] unread**  `key(u)`
-
- - **star (message | conversation)**  `key(.)`
-
- - **move to inbox**  `key(i)`
-
- - **move to trash**  `key(t)`
-
- - **move to archive**  `key(a)`
-
- - **move to spam**  `key(s)`
-
- - **reply to (message | conversation)**  `key(shift-r)`
-
- - **reply all [to] (message | conversation)**  `key(shift-a)`
-
- - **forward (message | conversation)**  `key(shift-f)`
-
- - **(prev | previous) contact**  `key(up)`
-
- - **next contact**  `key(down)`
-
- - **enter contact**  `key(right)`
-
- - **delete contact**  `key(t)`
-
- - **exit contact**  `key(left)`
-
- - **save contact**  `key(ctrl-s)`
-
-
-
 # mac slack mac
 
 
@@ -1446,53 +1249,6 @@
  - **install local**  `user.vscode("workbench.extensions.action.installVSIX")`
 
  - **preview markdown**  `user.vscode("markdown.showPreview")`
-
-
-
-# win windbg
-
-
- - **register <user.registers>**  `key(@)
-		insert("{registers}")
-		`
-
- - **open help**  `insert(".hh\n")`
-
- - **add microsoft symbols**  `insert("srv*C:\\symbols*http://msdl.microsoft.com/download/symbols;\n")`
-
- - **force reload symbols**  `insert(".reload /f\n")`
-
- - **reload symbols**  `insert(".reload\n")`
-
- - **loaded modules**  `insert("lm l\n")`
-
- - **display pointers**  `insert("dps ")`
-
- - **dereference pointer**  `user.insert_between("poi(", ")")`
-
- - **show version**  `key(ctrl-alt-w)`
-
- - **view command**  `key(alt-1)`
-
- - **view watch**  `key(alt-2)`
-
- - **view locals**  `key(alt-3)`
-
- - **view registers**  `key(alt-4)`
-
- - **view memory**  `key(alt-5)`
-
- - **view call stack**  `key(alt-6)`
-
- - **view disassembly**  `key(alt-7)`
-
- - **view scratch pad**  `key(alt-8)`
-
- - **view (processes | threads)**  `key(alt-9)`
-
- - **dump function params**  `"r @rcx,@rdx,@r8,@r9\n"`
-
- - **(lib | library) <user.windows_dlls>**  `"{windows_dlls}"`
 
 
 
@@ -2159,59 +1915,25 @@
 
 
 
-# win tabs
+#  markdown
 
 
- - **tab (open | new)**  `app.tab_open()`
+ - **level one**  `"# "`
 
- - **tab (last | previous)**  `app.tab_previous()`
+ - **level two**  `"## "`
 
- - **tab next**  `app.tab_next()`
+ - **level three**  `"### "`
 
- - **tab close**  `user.tab_close_wrapper()`
+ - **level four**  `"#### "`
 
- - **tab (reopen | restore)**  `app.tab_reopen()`
+ - **level five**  `"##### "`
 
- - **go tab <number>**  `user.tab_jump(number)`
+ - **level six**  `"###### "`
 
- - **go tab final**  `user.tab_final()`
-
- - **tab duplicate**  `user.tab_duplicate()`
-
-
-
-# win window management
-
-
- - **window (new | open)**  `app.window_open()`
-
- - **window next**  `app.window_next()`
-
- - **window last**  `app.window_previous()`
-
- - **window close**  `app.window_close()`
-
- - **focus <user.running_applications>**  `user.switcher_focus(running_applications)`
-
- - **focus**  `user.switcher_menu()`
-
- - **running list**  `user.switcher_toggle_running()`
-
- - **running close**  `user.switcher_hide_running()`
-
- - **launch <user.launch_applications>**  `user.switcher_launch(launch_applications)`
-
- - **snap <user.window_snap_position>**  `user.snap_window(window_snap_position)`
-
- - **snap next [screen]**  `user.move_window_next_screen()`
-
- - **snap last [screen]**  `user.move_window_previous_screen()`
-
- - **snap screen <number>**  `user.move_window_to_screen(number)`
-
- - **snap <user.running_applications> <user.window_snap_position>**  `user.snap_app(running_applications, window_snap_position)`
-
- - **snap <user.running_applications> [screen] <number>**  `user.move_app_to_screen(running_applications, number)`
+ - **{user.markdown_code_block_language} block**  `"```{markdown_code_block_language}"
+		key(enter:2)
+		"```"
+		key(up)`
 
 
 
@@ -2657,6 +2379,13 @@
 
 
 
+#  cheatsheet
+
+
+ - **print cheatsheet**  `user.cheatsheet()`
+
+
+
 #  command history
 
 
@@ -2799,142 +2528,6 @@
  - **microphone close**  `user.microphone_selection_hide()`
 
  - **microphone pick <number_small>**  `user.microphone_select(number_small)`
-
-
-
-#  mouse
-
-
- - **control mouse**  `tracking.control1_toggle()`
-
- - **zoom mouse**  `tracking.control_zoom_toggle()`
-
- - **camera overlay**  `tracking.control_debug_toggle()`
-
- - **run calibration**  `tracking.calibrate()`
-
- - **touch**  `mouse_click(0)
-		# close the mouse grid if open
-		user.grid_close()
-		# End any open drags
-		# Touch automatically ends left drags so this is for right drags specifically
-		user.mouse_drag_end()
-		`
-
- - **righty**  `mouse_click(1)
-		# close the mouse grid if open
-		user.grid_close()
-		`
-
- - **mid click**  `mouse_click(2)
-		# close the mouse grid
-		user.grid_close()
-		
-		#see keys.py for modifiers.
-		#defaults
-		#command
-		#control
-		#option = alt
-		#shift
-		#super = windows key`
-
- - **<user.modifiers> touch**  `key("{modifiers}:down")
-		mouse_click(0)
-		key("{modifiers}:up")
-		# close the mouse grid
-		user.grid_close()`
-
- - **<user.modifiers> righty**  `key("{modifiers}:down")
-		mouse_click(1)
-		key("{modifiers}:up")
-		# close the mouse grid
-		user.grid_close()`
-
- - **(dub click | duke)**  `mouse_click()
-		mouse_click()
-		# close the mouse grid
-		user.grid_close()`
-
- - **(trip click | trip lick)**  `mouse_click()
-		mouse_click()
-		mouse_click()
-		# close the mouse grid
-		user.grid_close()`
-
- - **left drag | drag**  `user.mouse_drag(0)
-		# close the mouse grid
-		user.grid_close()`
-
- - **right drag | righty drag**  `user.mouse_drag(1)
-		# close the mouse grid
-		user.grid_close()`
-
- - **end drag | drag end**  `user.mouse_drag_end()`
-
- - **wheel down**  `user.mouse_scroll_down()`
-
- - **wheel down here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_down()`
-
- - **wheel tiny [down]**  `user.mouse_scroll_down(0.2)`
-
- - **wheel tiny [down] here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_down(0.2)`
-
- - **wheel downer**  `user.mouse_scroll_down_continuous()`
-
- - **wheel downer here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_down_continuous()`
-
- - **wheel up**  `user.mouse_scroll_up()`
-
- - **wheel up here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_up()`
-
- - **wheel tiny up**  `user.mouse_scroll_up(0.2)`
-
- - **wheel tiny up here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_up(0.2)`
-
- - **wheel upper**  `user.mouse_scroll_up_continuous()`
-
- - **wheel upper here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_up_continuous()`
-
- - **wheel gaze**  `user.mouse_gaze_scroll()`
-
- - **wheel gaze here**  `user.mouse_move_center_active_window()
-		user.mouse_gaze_scroll()`
-
- - **wheel stop**  `user.mouse_scroll_stop()`
-
- - **wheel stop here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_stop()`
-
- - **wheel left**  `user.mouse_scroll_left()`
-
- - **wheel left here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_left()`
-
- - **wheel tiny left**  `user.mouse_scroll_left(0.5)`
-
- - **wheel tiny left here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_left(0.5)`
-
- - **wheel right**  `user.mouse_scroll_right()`
-
- - **wheel right here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_right()`
-
- - **wheel tiny right**  `user.mouse_scroll_right(0.5)`
-
- - **wheel tiny right here**  `user.mouse_move_center_active_window()
-		user.mouse_scroll_right(0.5)`
-
- - **copy mouse position**  `user.copy_mouse_position()`
-
- - **curse no**  `# Command added 2021-12-13, can remove after 2022-06-01
-		app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")`
 
 
 
@@ -3896,29 +3489,192 @@
 
 
 
-#  markdown
+#  mouse
 
 
- - **level one**  `"# "`
+ - **control mouse**  `tracking.control_toggle()`
 
- - **level two**  `"## "`
+ - **zoom mouse**  `tracking.control_zoom_toggle()`
 
- - **level three**  `"### "`
+ - **camera overlay**  `tracking.control_debug_toggle()`
 
- - **level four**  `"#### "`
+ - **run calibration**  `tracking.calibrate()`
 
- - **level five**  `"##### "`
+ - **touch**  `mouse_click(0)
+		# close the mouse grid if open
+		user.grid_close()
+		# End any open drags
+		# Touch automatically ends left drags so this is for right drags specifically
+		user.mouse_drag_end()
+		`
 
- - **level six**  `"###### "`
+ - **righty**  `mouse_click(1)
+		# close the mouse grid if open
+		user.grid_close()
+		`
 
- - **{user.markdown_code_block_language} block**  `"```{markdown_code_block_language}"
-		key(enter:2)
-		"```"
-		key(up)`
+ - **mid click**  `mouse_click(2)
+		# close the mouse grid
+		user.grid_close()
+		
+		#see keys.py for modifiers.
+		#defaults
+		#command
+		#control
+		#option = alt
+		#shift
+		#super = windows key`
+
+ - **<user.modifiers> touch**  `key("{modifiers}:down")
+		mouse_click(0)
+		key("{modifiers}:up")
+		# close the mouse grid
+		user.grid_close()`
+
+ - **<user.modifiers> righty**  `key("{modifiers}:down")
+		mouse_click(1)
+		key("{modifiers}:up")
+		# close the mouse grid
+		user.grid_close()`
+
+ - **(dub click | duke)**  `mouse_click()
+		mouse_click()
+		# close the mouse grid
+		user.grid_close()`
+
+ - **(trip click | trip lick)**  `mouse_click()
+		mouse_click()
+		mouse_click()
+		# close the mouse grid
+		user.grid_close()`
+
+ - **left drag | drag**  `user.mouse_drag(0)
+		# close the mouse grid
+		user.grid_close()`
+
+ - **right drag | righty drag**  `user.mouse_drag(1)
+		# close the mouse grid
+		user.grid_close()`
+
+ - **end drag | drag end**  `user.mouse_drag_end()`
+
+ - **wheel down**  `user.mouse_scroll_down()`
+
+ - **wheel down here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_down()`
+
+ - **wheel tiny [down]**  `user.mouse_scroll_down(0.2)`
+
+ - **wheel tiny [down] here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_down(0.2)`
+
+ - **wheel downer**  `user.mouse_scroll_down_continuous()`
+
+ - **wheel downer here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_down_continuous()`
+
+ - **wheel up**  `user.mouse_scroll_up()`
+
+ - **wheel up here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_up()`
+
+ - **wheel tiny up**  `user.mouse_scroll_up(0.2)`
+
+ - **wheel tiny up here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_up(0.2)`
+
+ - **wheel upper**  `user.mouse_scroll_up_continuous()`
+
+ - **wheel upper here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_up_continuous()`
+
+ - **wheel gaze**  `user.mouse_gaze_scroll()`
+
+ - **wheel gaze here**  `user.mouse_move_center_active_window()
+		user.mouse_gaze_scroll()`
+
+ - **wheel stop**  `user.mouse_scroll_stop()`
+
+ - **wheel stop here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_stop()`
+
+ - **wheel left**  `user.mouse_scroll_left()`
+
+ - **wheel left here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_left()`
+
+ - **wheel tiny left**  `user.mouse_scroll_left(0.5)`
+
+ - **wheel tiny left here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_left(0.5)`
+
+ - **wheel right**  `user.mouse_scroll_right()`
+
+ - **wheel right here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_right()`
+
+ - **wheel tiny right**  `user.mouse_scroll_right(0.5)`
+
+ - **wheel tiny right here**  `user.mouse_move_center_active_window()
+		user.mouse_scroll_right(0.5)`
+
+ - **copy mouse position**  `user.copy_mouse_position()`
+
+ - **curse no**  `# Command added 2021-12-13, can remove after 2022-06-01
+		app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")`
 
 
 
-#  cheatsheet
+# win tabs
 
 
- - **print cheatsheet**  `user.cheatsheet()`
+ - **tab (open | new)**  `app.tab_open()`
+
+ - **tab (last | previous)**  `app.tab_previous()`
+
+ - **tab next**  `app.tab_next()`
+
+ - **tab close**  `user.tab_close_wrapper()`
+
+ - **tab (reopen | restore)**  `app.tab_reopen()`
+
+ - **go tab <number>**  `user.tab_jump(number)`
+
+ - **go tab final**  `user.tab_final()`
+
+ - **tab duplicate**  `user.tab_duplicate()`
+
+
+
+# win window management
+
+
+ - **window (new | open)**  `app.window_open()`
+
+ - **window next**  `app.window_next()`
+
+ - **window last**  `app.window_previous()`
+
+ - **window close**  `app.window_close()`
+
+ - **focus <user.running_applications>**  `user.switcher_focus(running_applications)`
+
+ - **focus**  `user.switcher_menu()`
+
+ - **running list**  `user.switcher_toggle_running()`
+
+ - **running close**  `user.switcher_hide_running()`
+
+ - **launch <user.launch_applications>**  `user.switcher_launch(launch_applications)`
+
+ - **snap <user.window_snap_position>**  `user.snap_window(window_snap_position)`
+
+ - **snap next [screen]**  `user.move_window_next_screen()`
+
+ - **snap last [screen]**  `user.move_window_previous_screen()`
+
+ - **snap screen <number>**  `user.move_window_to_screen(number)`
+
+ - **snap <user.running_applications> <user.window_snap_position>**  `user.snap_app(running_applications, window_snap_position)`
+
+ - **snap <user.running_applications> [screen] <number>**  `user.move_app_to_screen(running_applications, number)`
