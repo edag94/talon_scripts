@@ -13,6 +13,8 @@ for root, dirs, files in os.walk(".", topdown=False):
            continue
         if "modes/wake_and_sleep.talon" in pathfull:
            continue
+        if "plugin/mouse" in pathfull:
+           continue
 
         print(root)
 
