@@ -1,6 +1,11 @@
 # !/usr/bin/python
 
 import os
+
+# talon auto loads and run this, i only want to run from vscode
+if len(sys.argv) > 2:
+   return
+
 for root, dirs, files in os.walk(".", topdown=False):
    for name in files:
       if name.endswith('talon'):
