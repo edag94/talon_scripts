@@ -1,4 +1,4 @@
-control my mouse for the hundredth time: tracking.control_toggle()
+control mouse for the hundredth time: tracking.control_toggle()
 # zoom mouse: tracking.control_zoom_toggle()
 # camera overlay: tracking.control_debug_toggle()
 # run calibration: tracking.calibrate()
