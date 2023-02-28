@@ -5,8 +5,12 @@ for root, dirs, files in os.walk(".", topdown=False):
    for name in files:
       if name.endswith('talon'):
         pathfull = os.path.join(root, name)
-        if name == "settings.talon" or pathfull == "./cheatsheet/cheatsheet.talon" or pathfull == "./core/modes/wake_and_sleep.talon":
+        if "core/modes" in root:
            continue
+        if name == "settings.talon" or "cheatsheet/cheatsheet.talon" in pathfull:
+           continue
+
+        print(root)
 
         print(pathfull)
         # Open the file as read
