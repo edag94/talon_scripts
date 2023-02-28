@@ -298,6 +298,11 @@ class Actions:
         """Open a menu of running apps to switch to"""
         if app.platform == "windows":
             actions.key("alt-ctrl-tab")
+        if app.platform == "mac":
+            actions.key(f"cmd-tab:down")
+            actions.key("tab:up")
+            actions.sleep("5000ms")
+            actions.key(f"cmd:up")
         else:
             print("Persistent Switcher Menu not supported on " + app.platform)
 
