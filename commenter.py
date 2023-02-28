@@ -5,7 +5,7 @@ for root, dirs, files in os.walk(".", topdown=False):
    for name in files:
       if name.endswith('talon'):
         pathfull = os.path.join(root, name)
-        if pathfull == "./settings.talon" or pathfull == "./cheatsheet/cheatsheet.talon":
+        if name == "settings.talon" or pathfull == "./cheatsheet/cheatsheet.talon":
            continue
 
         print(pathfull)
@@ -15,7 +15,7 @@ for root, dirs, files in os.walk(".", topdown=False):
         new_file = []
         # Loop the file line by line
         for line in f:
-            if line.strip() == "":
+            if line.strip() == "\n":
                continue
             # Split A,B on , and use first position [0], aka A, then add to the new array
             commented_line = f'# {line}'
@@ -24,4 +24,4 @@ for root, dirs, files in os.walk(".", topdown=False):
         # Open the file as Write, loop the new array and write with a newline
         with open(pathfull, "w+") as f:
             for i in new_file:
-                f.write(i+"\n")
+                f.write(i)
