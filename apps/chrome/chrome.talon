@@ -1,1 +1,1 @@
-profile switch: user.chrome_mod("shift-m")
+# profile switch: user.chrome_mod("shift-m")
