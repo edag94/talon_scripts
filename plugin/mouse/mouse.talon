@@ -1,4 +1,4 @@
-control mouse for the hundredth time: tracking.control_toggle()
+control mouse: tracking.control_toggle()
 # zoom mouse: tracking.control_zoom_toggle()
 # camera overlay: tracking.control_debug_toggle()
 # run calibration: tracking.calibrate()
@@ -67,7 +67,7 @@ control mouse for the hundredth time: tracking.control_toggle()
 # wheel tiny [down] here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_scroll_down(0.2)
-# wheel downer: user.mouse_scroll_down_continuous()
+wheel downer: user.mouse_scroll_down_continuous()
 # wheel downer here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_scroll_down_continuous()
@@ -79,15 +79,15 @@ control mouse for the hundredth time: tracking.control_toggle()
 # wheel tiny up here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_scroll_up(0.2)
-# wheel upper: user.mouse_scroll_up_continuous()
+wheel upper: user.mouse_scroll_up_continuous()
 # wheel upper here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_scroll_up_continuous()
-# wheel gaze: user.mouse_gaze_scroll()
+wheel gaze: user.mouse_gaze_scroll()
 # wheel gaze here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_gaze_scroll()
-# wheel stop: user.mouse_scroll_stop()
+wheel stop: user.mouse_scroll_stop()
 # wheel stop here:
 #     user.mouse_move_center_active_window()
 #     user.mouse_scroll_stop()

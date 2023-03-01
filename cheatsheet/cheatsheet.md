@@ -445,20 +445,28 @@
 #  cheatsheet
 
 
- - **print cheatsheet**  `user.cheatsheet()`
+ - **print cheatsheet for the tenth time**  `user.cheatsheet()`
 
 
 
 #  wake and sleep
 
 
- - **talon going to bed under the moon**  `speech.disable()`
+ - **talon sleep under the moon**  `speech.disable()`
 
- - **talon waking up under the sun**  `speech.enable()`
+ - **talon wake up under the sun**  `speech.enable()`
 
 
 
 #  mouse
 
 
- - **control my mouse for the hundredth time**  `tracking.control_toggle()`
+ - **control mouse**  `tracking.control_toggle()`
+
+ - **wheel downer**  `user.mouse_scroll_down_continuous()`
+
+ - **wheel upper**  `user.mouse_scroll_up_continuous()`
+
+ - **wheel gaze**  `user.mouse_gaze_scroll()`
+
+ - **wheel stop**  `user.mouse_scroll_stop()`
