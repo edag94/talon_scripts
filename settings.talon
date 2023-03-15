@@ -18,6 +18,8 @@ settings():
     # Stop continuous scroll/gaze scroll with a pop
     user.mouse_enable_pop_stops_scroll = 1
 
+    user.mouse_enable_hiss_righty = 0
+
     # Enable pop click with 'control mouse' mode
     user.mouse_enable_pop_click = 1
 
@@ -57,4 +59,4 @@ settings():
     #user.window_snap_screen = "size aware"
 
 # Uncomment this to enable the curse yes/curse no commands (show hide mouse cursor). See issue #688.
-# tag(): user.mouse_cursor_commands_enable
+tag(): user.mouse_cursor_commands_enable

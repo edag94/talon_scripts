@@ -10,3 +10,9 @@ not mode: sleep
     mode.disable("sleep")
     mode.disable("dictation")
     mode.enable("command")
+^game mode$:
+    mode.disable("sleep")
+    mode.disable("command")
+    mode.disable("dictation")
+    mode.disable("user.gdb")
+    mode.enable("user.game")
