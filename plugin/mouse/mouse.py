@@ -264,28 +264,6 @@ def on_pop(active):
 
 noise.register("pop", on_pop)
 
-# def mouse_gaze_scroll2(active):
-#     """Starts gaze scroll"""
-#     global continuous_scoll_mode
-#     continuous_scoll_mode = "gaze scroll"
-
-#     start_cursor_scrolling()
-#     if setting_mouse_hide_mouse_gui.get() == 0:
-#         gui_wheel.show()
-
-#     # enable 'control mouse' if eye tracker is present and not enabled already
-#     global control_mouse_forced
-#     if not actions.tracking.control_enabled():
-#         actions.tracking.control_toggle(True)
-#         control_mouse_forced = True
-
-def hiss_righty(active):
-    if setting_mouse_enable_hiss_righty.get() >= 1:
-        ctrl.mouse_click(button=1, hold=16000)
-
-# noise.register("hiss", mouse_gaze_scroll2)
-noise.register("hiss", hiss_righty)
-
 def mouse_scroll(amount):
     def scroll():
         global scroll_amount
