@@ -4,11 +4,9 @@ mode: user.game
 # parrot(cluck):
 # 	print("cluck")
 # 
-parrot(tut):
- 	print("tut")
-    mouse_click(1)
-    # close the mouse grid if open
-    user.grid_close()
+# parrot(tut):
+# 	print("tut")
+   
 # 
 # parrot(palate_click):
 # 	print("palate_click")
@@ -28,8 +26,11 @@ parrot(pop):
 # parrot(finger_snap):
 # 	print("finger_snap")
 # 
-# parrot(ch):
-# 	print("ch")
+parrot(ch):
+ 	print("ch")
+    mouse_click(1)
+    # close the mouse grid if open
+    user.grid_close()
 # 
 # parrot(ah):
 # 	print("ah")
