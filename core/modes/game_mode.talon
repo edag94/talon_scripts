@@ -12,14 +12,14 @@ parrot(ch):
     # Touch automatically ends left drags so this is for right drags specifically
     user.mouse_drag_end()
 
-parrot(click):
- 	print("click")
+parrot(hiss):
+ 	print("hiss")
     mouse_click(1)
     # close the mouse grid if open
     user.grid_close()
 
-parrot(hiss):
- 	print("hiss")
+parrot(click):
+ 	print("click")
     user.mouse_drag(0)
     # close the mouse grid
     user.grid_close()
@@ -29,3 +29,6 @@ parrot(kh):
     user.mouse_drag(1)
     # close the mouse grid
     user.grid_close()
+
+# control mouse: tracking.control_toggle()
+
