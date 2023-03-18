@@ -11,8 +11,8 @@ mode: user.game
 # parrot(palate_click):
 # 	print("palate_click")
 # 
-parrot(pop):
-    print("pop")
+parrot(put):
+    print("put")
     mouse_click(0)
     # close the mouse grid if open
     user.grid_close()
@@ -26,8 +26,8 @@ parrot(pop):
 # parrot(finger_snap):
 # 	print("finger_snap")
 # 
-parrot(ch):
- 	print("ch")
+parrot(hiss):
+ 	print("hiss")
     mouse_click(1)
     # close the mouse grid if open
     user.grid_close()
@@ -76,7 +76,9 @@ parrot(ch):
 # 
 parrot(fff):
  	print("fff")
-    user.mouse_gaze_scroll()
+    user.mouse_drag(0)
+    # close the mouse grid
+    user.grid_close()
 # 
 # parrot(buzz):
 # 	print("buzz")
@@ -84,12 +86,7 @@ parrot(fff):
 # parrot(generator):
 # 	print("generator")
 # 
-parrot(hiss):
- 	print("hiss")
-    user.mouse_drag(0)
-    # close the mouse grid
-    user.grid_close()
-# 
+
 parrot(shush):
  	print("shush")
     user.mouse_drag(1)
