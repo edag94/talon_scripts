@@ -30,5 +30,7 @@ parrot(kh):
     # close the mouse grid
     user.grid_close()
 
-# control mouse: tracking.control_toggle()
+parrot(cluck)
+    print("cluck")
+    tracking.control_toggle()
 
