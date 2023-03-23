@@ -4,7 +4,7 @@ mode: user.game
 # position mic under mouth so breathing doesn't get picked up
 
 parrot(ch):
-    print("ch")
+    app.notify("ch")
     mouse_click(0)
     # close the mouse grid if open
     user.grid_close()
@@ -12,8 +12,8 @@ parrot(ch):
     # Touch automatically ends left drags so this is for right drags specifically
     user.mouse_drag_end()
 
-parrot(hiss):
- 	print("hiss")
+parrot(tut):
+ 	print("tut")
     mouse_click(1)
     # close the mouse grid if open
     user.grid_close()
