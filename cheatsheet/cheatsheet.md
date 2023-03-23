@@ -4059,6 +4059,7 @@
 
  - **phones word**  `edit.select_word()
 		user.homophones_show_selection()`
+		
 
  - **phones [<user.ordinals>] word left**  `n = ordinals or 1
 		user.words_left(n - 1)
