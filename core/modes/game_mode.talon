@@ -18,14 +18,16 @@ parrot(tut):
     # close the mouse grid if open
     user.grid_close()
 
-parrot(click):
- 	print("click")
+parrot(kh):
+ 	print("kh")
     user.mouse_drag(0)
     # close the mouse grid
     user.grid_close()
 
 
-parrot(kh)
-    print("kh")
-    tracking.control_toggle()
+parrot(cluck):
+    print("cluck")
+    mouse_click(2)
+
+# tracking.control_toggle()
 
