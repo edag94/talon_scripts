@@ -1,6 +1,6 @@
 import os
 
-from talon import Module, actions, app, clip, cron, ctrl, imgui, noise, ui
+from talon import Module, actions, app, clip, cron, ctrl, imgui, noise, ui, scope
 from talon_plugins import eye_zoom_mouse
 
 key = actions.key
@@ -255,6 +255,9 @@ def show_cursor_helper(show):
 
 
 def on_pop(active):
+    modes = scope.get("mode")
+    if "user.game" in modes:
+        return
     if setting_mouse_enable_pop_stops_scroll.get() >= 1 and (gaze_job or scroll_job):
         stop_scroll()
     elif not actions.tracking.control_zoom_enabled():
@@ -262,7 +265,7 @@ def on_pop(active):
             ctrl.mouse_click(button=0, hold=16000)
 
 
-# noise.register("pop", on_pop)
+noise.register("pop", on_pop)
 
 def mouse_scroll(amount):
     def scroll():
