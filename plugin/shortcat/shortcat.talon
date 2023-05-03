@@ -1,1 +1,1 @@
-shortcat: user.shortcat()
+shore: user.shortcat()

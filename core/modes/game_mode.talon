@@ -32,9 +32,9 @@ mode: user.game
 # tracking.control_toggle()
 
 parrot(ch):
-     app.notify("ch")
+     #app.notify("ch")
      mouse_click(0)
 
-parrot(cluck):
-     print("cluck")
+parrot(mini-clock):
+     print("mini-clock")
      tracking.control_toggle()
