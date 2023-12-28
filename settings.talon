@@ -21,7 +21,7 @@ settings():
     user.mouse_enable_hiss_righty = 0
 
     # Enable pop click with 'control mouse' mode
-    user.mouse_enable_pop_click = 1
+    user.mouse_enable_pop_click = 0
 
     # When enabled, the 'Scroll Mouse' GUI will not be shown.
     user.mouse_hide_mouse_gui = 0
@@ -57,6 +57,8 @@ settings():
     # 'size aware' keeps absolute window size the same, except full-height or
     # -width windows are resized to stay full-height/width.
     #user.window_snap_screen = "size aware"
+
+    speech.timeout = 0.7
 
 # Uncomment this to enable the curse yes/curse no commands (show hide mouse cursor). See issue #688.
 tag(): user.mouse_cursor_commands_enable
