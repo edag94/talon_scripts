@@ -71,6 +71,7 @@ spell that <user.letters>: user.dictation_insert(letters)
 spell that <user.formatters> <user.letters>:
     result = user.formatted_text(letters, formatters)
     user.dictation_insert_raw(result)
+undo that: edit.undo()
 
 # Escape, type things that would otherwise be commands
 ^escape <user.text>$: user.dictation_insert(user.text)
