@@ -28,3 +28,6 @@ class Actions:
             actions.speech.set_microphone("System Default")
             actions.speech.enable()
             is_enabled = True
+    def shortcat():
+        """open shortcat"""
+        actions.key("shift-cmd-space")
