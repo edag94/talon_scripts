@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: IFWL-J4LXBV3
+-
+user: C:\Users\edagenais
+desktop: C:\Users\edagenais\Desktop
+desk: C:\Users\edagenais\Desktop
+documents: C:\Users\edagenais\Documents
+docks: C:\Users\edagenais\Documents
+downloads: C:\Users\edagenais\Downloads
+music: C:\Users\edagenais\Music
+pictures: C:\Users\edagenais\Pictures
+videos: C:\Users\edagenais\Videos
+talon home: C:\Users\edagenais\AppData\Roaming\talon
+talon recordings: C:\Users\edagenais\AppData\Roaming\talon\recordings
+talon user: C:\Users\edagenais\AppData\Roaming\talon\user
+profile: C:\Users\edagenais
